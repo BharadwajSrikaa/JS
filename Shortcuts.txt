@@ -11,3 +11,6 @@ Falsy Values:
     -> '', "", ``  (Empty Quotes)
 Everything other than is Truthy Value. 
 Number +  undefined = NaN
+
+=== strict Equality (type + value)
+!== strict Non-equality (type + value)
