@@ -1,0 +1,35 @@
+clg -> console.log
+log -> console.log
+
+Falsy Values:
+    -> false
+    -> null : Can be set by programmers
+    -> undefined : Can be set by the Js Compiler. 
+    -> 0
+    -> -0
+    -> NaN
+    -> '', "", ``  (Empty Quotes)
+Everything other than is Truthy Value. 
+Number +  undefined = NaN
+
+=== strict Equality (type + value)
+!== strict Non-equality (type + value)
+
+
+Method : Description
+1. concat() : Join  two or more arrays and return it as result
+2. includes() : Checks if any elements contains specific elements
+3. push() : adds the new element to the end of array and returns the length of the new array. 
+4. unshift() : Adds the new elemet in the beginnig os the array and returns the new leght of the array. 
+5. pop() : Removes the last element of the array and return the removed element. 
+6. shift() : Removes the first element of the array and return the removed element. 
+7. sort() : sorts the elements in alphabetical order and in ascending. 
+8. slice() : Select a part of an array and returns the new array. 
+9. splice() : removes or replaces existing elements and/or addss the new data. 
+
+let fruits = ["Apple", "Mango", "Banana", "Pineapple", "DragonFruit"];
+fruits.splice(1, 2, "panda", "not fruit", "Carrot");
+console.log(fruits);
+OutPut:
+(6) ['Apple', 'panda', 'not fruit', 'Carrot', 'Pineapple', 'DragonFruit']
+
