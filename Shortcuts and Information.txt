@@ -33,3 +33,37 @@ console.log(fruits);
 OutPut:
 (6) ['Apple', 'panda', 'not fruit', 'Carrot', 'Pineapple', 'DragonFruit']
 
+
+JSON:
+JSON type to javascript type = stringify ()
+javascript type to JSON type = parse ()
+
+
+Date and Time:
+let panda = new Date(2002, 9, 15, 12, 30, 0, 0);
+Format:
+let panda = new Date(year, month, date, hours, minutes, seconds, milliseconds);
+Months starts from 0 and ends with 11. 
+There are many formats in dates. Check Documentation. 
+
+setInterval: No delay in executing
+setInterval(
+  () => console.log(`This function will be executed for every 2 seconds ${i}`),
+  2000
+);
+
+setTimeout: Will execute after a delay
+setTimeout(function () {
+  console.log(`this function will execute after 3 seconds`);
+}, 3000);
+
+clearInterval:
+let intervalId = setInterval(function () {
+  console.log(`This function is being executed at the interval`);
+}, 1000);
+setTimeout(() => {
+  clearInterval(intervalId);
+  console.log(`Interval Stopped`);
+}, 10000);
+
+

@@ -1,0 +1,11 @@
+{
+  "name": "Mihawk",
+  "age": 20,
+  "email": "mihawk1510@gmail.com",
+  "student": true,
+  "hobbies": ["Reading", "Writing", "Sleeping"],
+  "address": {
+    "city": "Hydrabad",
+    "pin": 521225
+  }
+}

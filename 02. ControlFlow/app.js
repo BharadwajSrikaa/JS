@@ -1,3 +1,8 @@
-let fruits = ["Apple", "Mango", "Banana", "Pineapple", "DragonFruit"];
-fruits.splice(1, 2, "panda", "not fruit", "Carrot");
-console.log(fruits);
+let intervalId = setInterval(function () {
+  console.log(`This function is being executed at the interval`);
+}, 1000);
+
+setTimeout(() => {
+  clearInterval(intervalId);
+  console.log(`Interval Stopped`);
+}, 10000);
